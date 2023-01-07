@@ -1,5 +1,5 @@
 import React from "react";
-import Book from "../books/Book";
+import Book from "../books/Bookr";
 
 function Pricing() {
   return (

@@ -20,9 +20,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 //Using basic auth
-Route::middleware('auth.basic')->group(function () {
+Route::middleware('auth.basic')->group(function () {});
     Route::apiResource('books', BooksController::class);
-});
+
 
 // //Using basic auth username middleware
 // Route::middleware('auth.basic.username')->group(function () {

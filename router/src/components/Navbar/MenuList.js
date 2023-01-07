@@ -8,12 +8,16 @@ export const MenuList = [
     url: "/features",
   },
   {
-    title: "Pricing",
-    url: "/pricing",
+    title: "Books",
+    url: "/books",
   },
   {
     title: "Testimonial",
     url: "/testimonials",
+  },
+  {
+    title: "BookList",
+    url: "/book/list",
   },
   {
     title: "Try For Free",
